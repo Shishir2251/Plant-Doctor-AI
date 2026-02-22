@@ -1,0 +1,54 @@
+# ========================
+# ENVIRONMENT FILES
+# ========================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ========================
+# PYTHON / BACKEND
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ========================
+# NODE / FRONTEND
+# ========================
+node_modules/
+frontend/dist/
+frontend/build/
+*.local
+
+# ========================
+# MISC
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+coverage/
+.nyc_output/
