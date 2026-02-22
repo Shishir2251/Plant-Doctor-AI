@@ -1,7 +1,8 @@
 # ========================
 # ENVIRONMENT FILES
 # ========================
-.env
+**/.env
+backend/.env
 .env.local
 .env.*.local
 !.env.example
@@ -15,9 +16,9 @@ __pycache__/
 *.so
 .Python
 venv/
-env/
+penv/
 ENV/
-.venv/
+.env
 pip-log.txt
 pip-delete-this-directory.txt
 *.egg-info/
