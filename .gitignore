@@ -7,6 +7,8 @@ backend/.env
 .env.*.local
 !.env.example
 
+venv/
+
 # ========================
 # PYTHON / BACKEND
 # ========================
