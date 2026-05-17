@@ -72,7 +72,7 @@ export default function Home() {
       {!result && !isLoading && (
         <div className="max-w-2xl mx-auto text-center px-4 pt-16 pb-10">
           <div className="inline-flex items-center gap-2 bg-forest-900/60 border border-forest-700/50 rounded-full px-4 py-1.5 mb-6">
-            <span className="text-xs font-mono text-forest-400">Powered by Google Gemini Vision AI</span>
+            <span className="text-xs font-mono text-forest-400">Powered by Shishir Foundation</span>
             <span className="text-forest-600">·</span>
             <span className="text-xs font-mono text-forest-500">Free</span>
           </div>
@@ -187,7 +187,7 @@ export default function Home() {
       <footer className="border-t border-forest-900/60 py-6 px-4">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-forest-600 text-xs font-mono">
-            🌿 Plant Doctor AI — Demo Version — Free tier via Google Gemini
+            🌿 Plant Doctor AI — Your plant's Time Savings Friend !!!
           </p>
           <p className="text-forest-700 text-xs font-mono">
             Results are AI-generated and for informational purposes only

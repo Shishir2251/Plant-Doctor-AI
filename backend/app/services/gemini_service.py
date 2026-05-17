@@ -113,6 +113,8 @@ async def analyse_plant_image(image_bytes: bytes, mime_type: str = "image/jpeg")
 
     try:
         model = genai.GenerativeModel(MODEL_NAME)
+        print("IMAGE BYTES LENGTH:", len(image_bytes))
+        print("FIRST 20 BYTES:", image_bytes[:20])
         image = Image.open(io.BytesIO(image_bytes))
 
         response = model.generate_content(
