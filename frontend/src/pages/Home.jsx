@@ -73,8 +73,8 @@ export default function Home() {
         <div className="max-w-2xl mx-auto text-center px-4 pt-16 pb-10">
           <div className="inline-flex items-center gap-2 bg-forest-900/60 border border-forest-700/50 rounded-full px-4 py-1.5 mb-6">
             {/* <span className="text-xs font-mono text-forest-400">Powered by Shishir Foundation</span> */}
-            <span className="text-forest-600">·</span>
-            <span className="text-xs font-mono text-forest-500">Free</span>
+            
+            <span className="text-xs font-mono text-forest-500">Healthy Plant | Healthy Planet</span>
           </div>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-gradient leading-tight mb-4">
             Is your plant<br />feeling unwell?
